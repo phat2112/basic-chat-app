@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import "./styles.scss";
 
 let socket;
-let ENDPOINT = "localhost:8000";
+let ENDPOINT = "https://bo-chat-app-server.herokuapp.com";
 const Room = () => {
   const history = useHistory();
 
